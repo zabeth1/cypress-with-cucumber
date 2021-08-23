@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "cypress": "^8.3.0",
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  },
+  "name": "cypress-with-cucumber",
+  "description": "Tool example of cypress testing and cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zabeth1/cypress-with-cucumber.git"
+  },
+  "author": "ElisabethD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zabeth1/cypress-with-cucumber/issues"
+  },
+  "homepage": "https://github.com/zabeth1/cypress-with-cucumber#readme",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
